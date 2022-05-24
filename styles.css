@@ -228,12 +228,14 @@ i:hover {
 
 .projects-grid {
   display: flex;
+  flex: 1 1 33.333%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
   min-height: 100vh;
+  flex:wrap;
 }
 
 .card-body {
@@ -241,7 +243,6 @@ i:hover {
 }
 
 .card {
-  /* background-image: url("bike.jpg"); */
   background-position: center;
   background-size: cover;
   padding: 10rem 0 0;
@@ -262,12 +263,10 @@ i:hover {
 }
 
 .card3{
-  background-image: url("bike.jpg");
+  background-image: url("rockpaperscissors.png");
 }
 
-.card4{
-  background-image: url("bike.jpg");
-}
+
 
 .card:hover,
 .card:focus-within {
